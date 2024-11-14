@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Denloyd Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#aboutme">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#project">Project</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#aboutme">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#">Service</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="image/pics/pic2.jpg" alt="home pic">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Denloyd</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <div class="social-links">
+                    <a href="https://github.com/denloyd" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="#aboutme" class="about-btn">About me</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section id="aboutme">
+        <div class="section-container" data-aos="fade-up" data-aos-duration="1500">
+            <h2>About Me</h2>
+            <p>
+            Hello! My name is Denloyd Mar C. Balane, and I'm currently a third-year BS Information Systems student at the Technological University of the Philippines-Manila. 
+            During my almost three years at TUP, I have gained experience in three different programming languages: C, C++, and Java. These languages have given me a strong 
+            foundation in programming, allowing me to understand different concepts and solve a variety of problems. I'm excited to keep expanding my skills and apply 
+            what I've learned to even more complex tasks in the future.
+            </p>
+        
+
+            <div class="about-images">
+                <img src="image/pics/pic3.jpg" alt="about-pic3" class="about-img">
+                <img src="image/pics/pic1.jpg" alt="about-pic1" class="about-img">
+                <img src="image/pics/pic4.jpg" alt="about-pic3" class="about-img">
+            </div>
+        </div>
+        
+    </section>
+    
+    <section id="skills">
+        <div class="section-container" data-aos="fade-up" data-aos-duration="1500">
+            <h2>Skills</h2>
+            <div class="skills-list">
+            <div class="skill-item">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-c"></i>
+                <h3>C Language</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-database"></i>
+                <h3>MySQL</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-code"></i> 
+                <h3>C++</h3>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="section-container" data-aos="fade-up" data-aos-duration="1500">
+            <h2>Contact</h2>
+            <p>If you'd like to reach out, feel free to contact me through my social media links or send me an email at example@example.com.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
