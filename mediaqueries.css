@@ -102,6 +102,9 @@
     .project-link{
         font-size: 0.8rem;
     }
+    footer{
+        display: block;
+    }
 }
 
 /* Tablet styles */
