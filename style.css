@@ -124,6 +124,8 @@ section{
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px aqua;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .main-container .image img{
@@ -299,7 +301,6 @@ h2 {
     font-size: 5rem;
     color: aqua;
     padding: 5rem;
-    
 }
 
 .skill-item h3 {
@@ -372,7 +373,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
     margin: auto;
 }
@@ -383,7 +384,7 @@ form input, form textarea {
     margin: 1rem 0;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 form button {
@@ -392,8 +393,8 @@ form button {
     background-color: aqua;
     color: black;
     border: none;
-    border-radius: 5px;
-    font-size: 1.5rem;
+    border-radius: 3px;
+    font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }

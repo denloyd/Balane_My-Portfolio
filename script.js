@@ -11,8 +11,8 @@ function cancel(){
 // Typewriter Effect
 
 const texts = [
-    "THIRD YEAR",
-    "BSIS STUDENT",
+    "a THIRD YEAR",
+    "a BSIS STUDENT",
     "FROM TUP MANILA"
 ]
 
