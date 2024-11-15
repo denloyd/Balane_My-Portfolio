@@ -71,6 +71,15 @@
         width: 100%;
         height: auto;
     }
+    .skill-item{
+        width: 100%;
+        height: auto;
+    }
+    .skill-item i {
+        width: 100%;
+        height: auto;
+        font-size: 3rem;
+    }
 
     .project-row {
         flex-direction: column; /* Stack projects vertically */
@@ -79,6 +88,19 @@
     .project-card {
         width: 100%; /* Full width on mobile */
         margin-bottom: 1rem;
+    }
+    .project-image{
+        width: 100%;
+        height: auto;
+    }
+    .project-title{
+        font-size: 1rem;
+    }
+    .project-description{
+        font-size: 0.8rem;
+    }
+    .project-link{
+        font-size: 0.8rem;
     }
 }
 
