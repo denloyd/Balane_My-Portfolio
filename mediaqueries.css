@@ -116,6 +116,9 @@
     #contact .section-container p { 
         font-size: 0.8rem;
     }
+    footer p {
+        font-size: 0.8rem;
+    }
 }
 
 /* Tablet styles */
@@ -130,7 +133,7 @@
     }
 
     .main-container .image {
-        width: 100%;
+        width: 60%;
         height: auto
     }
 
