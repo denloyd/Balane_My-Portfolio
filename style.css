@@ -367,7 +367,12 @@ h2 {
 }
 
 
-
+#contact .section-container p {
+    font-size: 1rem; /* Adjust the value as needed */
+    color: white; /* Optional: Set the color */
+    line-height: 1.5; /* Optional: Improve readability */
+    margin-bottom: 1rem; /* Optional: Add spacing below */
+}
 form {
     display: flex;
     flex-direction: column;
