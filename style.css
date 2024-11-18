@@ -235,7 +235,9 @@ section{
     box-shadow: 0 0 40px aqua;
 }
 
-
+#aboutme .section-container p {
+    text-align: justify;
+}
 
 
 .section-container {
