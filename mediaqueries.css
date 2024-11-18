@@ -30,6 +30,19 @@
         width: 50%;
         height: 60%;
     }
+    .loading-page {
+        flex-direction: column; /* Stack image and content vertically */
+        text-align: center;
+
+    }
+
+    .loading-logo {
+        justify-content: center; /* Vertically center */
+        align-items: center; /* Horizontally center */
+    }
+    .logo-name{
+        font-size: 1rem;
+    }
 }
 
 /* General mobile-first styles */
@@ -105,6 +118,16 @@
     footer{
         display: block;
     }
+    .loading-page {
+        justify-content: center; /* Vertically center */
+        align-items: center; /* Horizontally center */
+    }
+    .loading-logo{
+        width: 100px;
+    }
+    .logo-name{
+        font-size: 1rem;
+    }
 }
 
 /* Tablet styles */
@@ -128,6 +151,11 @@
         height: 100%;
     }
     
+    .loading-page{
+        justify-content: center; /* Vertically center */
+        align-items: center; /* Horizontally center */
+        
+    }
 }
 
 /* Desktop styles */
