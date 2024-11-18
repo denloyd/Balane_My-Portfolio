@@ -122,6 +122,9 @@
         font-size: 1.2rem; /* Adjust font size for smaller screens */
         margin-top: 15px; /* Slightly reduce spacing */
     }
+    #contact .section-container p { 
+        font-size: 1rem;
+    }
 }
 
 /* Tablet styles */
