@@ -9,18 +9,35 @@
     <link rel="stylesheet" href="mediaqueries.css">
     <title>Denloyd Portfolio</title>
 </head>
-<body>
+<body class="hidden-content">
+
+    <div class="loading-page">
+        <div>
+            <!-- Updated: Use an image logo instead of SVG -->
+            <div class="loading-logo">
+                <img src="image/pics/logo1.png" alt="Your Logo"> <!-- Replace with the path to your logo -->
+            </div>
+            <div class="loading-name">
+                <p>Welcome to my Portfolio!</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
     <nav>
         <div class="nav-container">
             <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
                 
             </div>
             <div class="links">
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#aboutme">About</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#project">Project</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="200"><a href="#aboutme">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="400"><a href="#project">Project</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="500"><a href="#contact">Contact</a></div>
         </div>
         <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
     </div>
@@ -41,7 +58,7 @@
                 <img src="image/pics/pic2.jpg" alt="home pic">
             </div>
             <div class="content">
-                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Denloyd</span></h1>
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey, I'm <span>Denloyd</span></h1>
                 <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm  <span class="typewriter-text"></span><label for="">|</label></div>
                 <div class="social-links">
                     <a href="https://github.com/denloyd" target="_blank" class="social-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
@@ -55,7 +72,7 @@
                     </a>
                 </div>
                 
-                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="800">
                     <a href="#aboutme" class="about-btn">About me</a>
                 </div>
                 
@@ -64,7 +81,7 @@
     </section>
     
     <section id="aboutme">
-        <div class="section-container" data-aos="fade-up" data-aos-duration="1500">
+        <div class="section-container" data-aos="zoom-out-down" data-aos-duration="1500">
             <h2>About Me</h2>
             <p>
             Hello! My name is Denloyd Mar C. Balane, and I'm currently a third-year BS Information Systems student at the Technological University of the Philippines-Manila. 
@@ -74,19 +91,18 @@
             </p>
         
 
-            <div class="about-images">
+            <div class="about-images" data-aos="flip-right" data-aos-duration="1500">
                 <img src="image/pics/pic3.jpg" alt="about-pic3" class="about-img">
                 <img src="image/pics/pic1.jpg" alt="about-pic1" class="about-img">
                 <img src="image/pics/pic4.jpg" alt="about-pic3" class="about-img">
-            </div>
         </div>
         
     </section>
     
     <section id="skills">
-        <div class="section-container" data-aos="fade-up" data-aos-duration="1500">
+        <div class="section-container" data-aos="zoom-out-down" data-aos-duration="1500">
             <h2>Skills</h2>
-            <div class="skills-list">
+            <div class="skills-list" data-aos="flip-left" data-aos-duration="1500">
             <div class="skill-item">
                 <i class="fa-brands fa-html5"></i>
                 <h3>HTML</h3>
@@ -116,7 +132,7 @@
     </section>
     
     <section id="project">
-        <div class="section-container" data-aos="fade-up" data-aos-duration="1500">
+        <div class="section-container" data-aos="zoom-out-down" data-aos-duration="1500">
             <h2>Projects</h2>
             <p>Here are some of the projects I've worked on. These projects showcase my skills in web development, programming, and problem-solving.</p>
             
@@ -153,7 +169,7 @@
     </section>
     
     <section id="contact">
-        <div class="section-container" data-aos="fade-up" data-aos-duration="1500">
+        <div class="section-container" data-aos="zoom-out-down" data-aos-duration="1500">
             <h2>Contact</h2>
             <p>If you'd like to reach out, feel free to contact me through my social media links or send me an email at example@example.com.</p>
             <form>
@@ -167,7 +183,9 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({offset:0});
+
     </script>
+    
     <script src="script.js"></script>
     <footer>
         <div class="footer-container">

@@ -46,3 +46,17 @@ function eraseText(){
 }
 
 window.onload = typeWriter
+
+window.addEventListener("load", function() {
+    // Show the loading screen for 5 seconds
+    setTimeout(function() {
+        // Add fade-out class to the loading screen
+        document.querySelector('.loading-page').classList.add('fade-out');
+
+        // After fade-out animation (1 second), hide the loading screen and show the portfolio content
+        setTimeout(function() {
+            document.querySelector('.loading-page').style.display = 'none';
+            document.getElementById('').style.display = 'block'; // Show the portfolio content
+        }, 1000); // Wait for 1 second for the fade-out effect
+    }, 1000); 
+});
