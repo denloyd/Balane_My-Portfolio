@@ -106,24 +106,15 @@
     footer{
         display: block;
     }
-    .loading-page {
-        display: flex;
-        flex-direction: column; /* Keep them stacked */
-        justify-content: center; /* Center vertically */
-        align-items: center; /* Center horizontally */
-        text-align: center; /* Ensure the text aligns properly */
-    }
-
     .loading-logo img {
-        width: 200px; /* Adjust the size for smaller screens */
+        width: 100px; /* Smaller size for small screens */
     }
 
     .loading-name {
-        font-size: 1.2rem; /* Adjust font size for smaller screens */
-        margin-top: 15px; /* Slightly reduce spacing */
+        font-size: 1rem; /* Adjust text size */
     }
     #contact .section-container p { 
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 

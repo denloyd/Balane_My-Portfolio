@@ -440,9 +440,9 @@ footer {
 
 .loading-page {
     display: flex;
-    flex-direction: column; /* Stack logo and name vertically */
-    justify-content: center; /* Vertically center */
-    align-items: center; /* Horizontally center */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
     position: fixed;
     top: 0;
     left: 0;
@@ -450,21 +450,17 @@ footer {
     height: 100%;
     background-color: black;
     z-index: 9999;
+    text-align: center; /* Ensure text is centered */
 }
 
-/* Center the image and adjust the size */
 .loading-logo img {
-    width: 300px; /* Default size for large screens */
+    width: 150px; /* Adjust size as needed */
     height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
-/* Center the text */
 .loading-name {
-    text-align: center;
-    color:white;
-    font-size: 1.5rem;
-    margin-top: 20px; /* Add some space between logo and text */
+    margin-top: 15px; /* Space between logo and name */
+    font-size: 1.2rem;
+    color: white;
 }
 
