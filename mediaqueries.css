@@ -34,7 +34,168 @@
 
 
 /* General mobile-first styles */
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
+    .nav-container .links {
+        display: none; /* Hide navigation links on small screens */
+    }
+
+    .hamburg{
+        display: block; /* Show the hamburger icon */
+    }
+
+    .dropdown {
+        display: block; /* Show dropdown for mobile menu */
+    }
+
+    .main-container {
+        flex-direction: column; /* Stack image and content vertically */
+    }
+
+    .main-container .image {
+        width: 80%; /* Reduce image size on smaller screens */
+    }
+
+    .main-container .content {
+        width: 100%; /* Full width content */
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center; /* Center social links */
+    }
+
+    .about-images {
+        flex-direction: column; /* Stack images vertically */
+    }
+
+    .about-img {
+        width: 100%;
+        height: auto;
+    }
+    .skill-item{
+        width: 100%;
+        height: auto;
+    }
+    .skill-item i {
+        width: 100%;
+        height: auto;
+        font-size: 3rem;
+    }
+
+    .project-row {
+        flex-direction: column; /* Stack projects vertically */
+    }
+
+    .project-card {
+        width: 100%; /* Full width on mobile */
+        margin-bottom: 1rem;
+    }
+    .project-image{
+        width: 60%;
+        height: auto;
+    }
+    .project-title{
+        font-size: 1rem;
+    }
+    .project-description{
+        font-size: 0.8rem;
+    }
+    .project-link{
+        font-size: 0.8rem;
+    }
+    footer{
+        display: block;
+    }
+    .loading-logo img {
+        justify-content: center; /* Vertically center */
+        align-items: center; /* Horizontally center */
+        width: 100px; /* Smaller size for small screens */
+    }
+
+    .loading-name {
+        justify-content: center; /* Vertically center */
+        align-items: center; /* Horizontally center */
+        font-size: 1rem; /* Adjust text size */
+    }
+    #contact .section-container p { 
+        font-size: 0.8rem;
+    }
+    footer p {
+        font-size: 0.8rem;
+    }
+    .loading-page{
+        justify-content: center; /* Vertically center */
+        align-items: center; /* Horizontally center */
+        width: 100%;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav-container {
+        justify-content: space-between; /* Adjust alignment */
+    }
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-container .image {
+        width: 60%;
+        height: auto
+    }
+
+    .project-card {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .loading-page{
+        justify-content: center; /* Vertically center */
+        align-items: center; /* Horizontally center */
+        
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+    .nav-container .links {
+        display: flex; /* Show navigation links */
+    }
+
+    .hamburg, .dropdown {
+        display: none; /* Hide mobile elements */
+    }
+
+    .main-container {
+        flex-direction: row; /* Side-by-side layout */
+    }
+
+    .main-container .image {
+        width: 500px;
+    }
+    .project-row {
+        flex-wrap: wrap; /* Wrap projects in rows */
+    }
+
+    .project-card {
+        width: 40%; /* Three projects per row */
+    }
+}
+
+/* For smaller screens */
+@media (max-width: 425px) {
+    .loading-page {
+        height: 100vh; /* Ensure full height */
+    }
+
+    .loading-logo img {
+        width: 100px; /* Smaller size for small screens */
+    }
+
+    .loading-name {
+        font-size: 1rem; /* Smaller text */
+    }
     .nav-container .links {
         display: none; /* Hide navigation links on small screens */
     }
@@ -106,73 +267,24 @@
     footer{
         display: block;
     }
-    .loading-logo img {
-        width: 100px; /* Smaller size for small screens */
-    }
-
-    .loading-name {
-        font-size: 1rem; /* Adjust text size */
-    }
     #contact .section-container p { 
         font-size: 0.8rem;
+        text-align: justify;
     }
     footer p {
         font-size: 0.8rem;
     }
+   .skill-item h3 {
+     font-size: 1rem;
+   }
+   .fa-brands,  
+   .fa-solid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   #project .section-container p {
+    text-align: justify;
 }
-
-/* Tablet styles */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .nav-container {
-        justify-content: space-between; /* Adjust alignment */
-    }
-
-    .main-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .main-container .image {
-        width: 60%;
-        height: auto
-    }
-
-    .project-card {
-        width: 100%;
-        height: 100%;
-    }
-    
-    .loading-page{
-        justify-content: center; /* Vertically center */
-        align-items: center; /* Horizontally center */
-        
-    }
 }
-
-/* Desktop styles */
-@media (min-width: 1025px) {
-    .nav-container .links {
-        display: flex; /* Show navigation links */
-    }
-
-    .hamburg, .dropdown {
-        display: none; /* Hide mobile elements */
-    }
-
-    .main-container {
-        flex-direction: row; /* Side-by-side layout */
-    }
-
-    .main-container .image {
-        width: 500px;
-    }
-
-    .project-row {
-        flex-wrap: wrap; /* Wrap projects in rows */
-    }
-
-    .project-card {
-        width: 40%; /* Three projects per row */
-    }
-}
-
