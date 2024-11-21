@@ -3,7 +3,7 @@
         position: absolute;
         top: 16px;
         left: 15px;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .main-container {
@@ -33,39 +33,39 @@
 }
 
 
-/* General mobile-first styles */
-@media (min-width: 426px) and (max-width: 768px) {
+
+@media (min-width: 425px) and (max-width: 768px) {
     .nav-container .links {
-        display: none; /* Hide navigation links on small screens */
+        display: none; 
     }
 
     .hamburg{
-        display: block; /* Show the hamburger icon */
+        display: block; 
     }
 
     .dropdown {
-        display: block; /* Show dropdown for mobile menu */
+        display: block;
     }
 
     .main-container {
-        flex-direction: column; /* Stack image and content vertically */
+        flex-direction: column; 
     }
 
     .main-container .image {
-        width: 80%; /* Reduce image size on smaller screens */
+        width: 80%; 
     }
 
     .main-container .content {
-        width: 100%; /* Full width content */
+        width: 100%; 
         text-align: center;
     }
 
     .social-links {
-        justify-content: center; /* Center social links */
+        justify-content: center; 
     }
 
     .about-images {
-        flex-direction: column; /* Stack images vertically */
+        flex-direction: column; 
     }
 
     .about-img {
@@ -83,11 +83,11 @@
     }
 
     .project-row {
-        flex-direction: column; /* Stack projects vertically */
+        flex-direction: column; 
     }
 
     .project-card {
-        width: 100%; /* Full width on mobile */
+        width: 100%; 
         margin-bottom: 1rem;
     }
     .project-image{
@@ -107,15 +107,15 @@
         display: block;
     }
     .loading-logo img {
-        justify-content: center; /* Vertically center */
-        align-items: center; /* Horizontally center */
-        width: 100px; /* Smaller size for small screens */
+        justify-content: center; 
+        align-items: center; 
+        width: 100px; 
     }
 
     .loading-name {
-        justify-content: center; /* Vertically center */
-        align-items: center; /* Horizontally center */
-        font-size: 1rem; /* Adjust text size */
+        justify-content: center; 
+        align-items: center; 
+        font-size: 1rem; 
     }
     #contact .section-container p { 
         font-size: 0.8rem;
@@ -124,16 +124,16 @@
         font-size: 0.8rem;
     }
     .loading-page{
-        justify-content: center; /* Vertically center */
-        align-items: center; /* Horizontally center */
+        justify-content: center; 
+        align-items: center; 
         width: 100%;
     }
 }
 
-/* Tablet styles */
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .nav-container {
-        justify-content: space-between; /* Adjust alignment */
+        justify-content: space-between; 
     }
     .main-container {
         flex-direction: column;
@@ -151,82 +151,82 @@
     }
     
     .loading-page{
-        justify-content: center; /* Vertically center */
-        align-items: center; /* Horizontally center */
+        justify-content: center; 
+        align-items: center; 
         
     }
 }
 
-/* Desktop styles */
+
 @media (min-width: 1025px) {
     .nav-container .links {
-        display: flex; /* Show navigation links */
+        display: flex; 
     }
 
     .hamburg, .dropdown {
-        display: none; /* Hide mobile elements */
+        display: none; 
     }
 
     .main-container {
-        flex-direction: row; /* Side-by-side layout */
+        flex-direction: row; 
     }
 
     .main-container .image {
         width: 500px;
     }
     .project-row {
-        flex-wrap: wrap; /* Wrap projects in rows */
+        flex-wrap: wrap; 
     }
 
     .project-card {
-        width: 40%; /* Three projects per row */
+        width: 40%; 
     }
 }
 
-/* For smaller screens */
+
 @media (max-width: 425px) {
     .loading-page {
-        height: 100vh; /* Ensure full height */
+        height: 100vh; 
     }
 
     .loading-logo img {
-        width: 100px; /* Smaller size for small screens */
+        width: 100px; 
     }
 
     .loading-name {
-        font-size: 1rem; /* Smaller text */
+        font-size: 1rem;
     }
     .nav-container .links {
-        display: none; /* Hide navigation links on small screens */
+        display: none; 
     }
 
     .hamburg{
-        display: block; /* Show the hamburger icon */
+        display: block; 
     }
 
     .dropdown {
-        display: block; /* Show dropdown for mobile menu */
+        display: block; 
     }
 
     .main-container {
-        flex-direction: column; /* Stack image and content vertically */
+        flex-direction: column; 
     }
 
     .main-container .image {
-        width: 80%; /* Reduce image size on smaller screens */
+        width: 80%; 
     }
 
     .main-container .content {
-        width: 100%; /* Full width content */
+        width: 100%; 
         text-align: center;
     }
 
     .social-links {
-        justify-content: center; /* Center social links */
+        justify-content: center; 
     }
 
     .about-images {
-        flex-direction: column; /* Stack images vertically */
+        flex-direction: column; 
     }
 
     .about-img {
@@ -244,11 +244,11 @@
     }
 
     .project-row {
-        flex-direction: column; /* Stack projects vertically */
+        flex-direction: column; 
     }
 
     .project-card {
-        width: 100%; /* Full width on mobile */
+        width: 100%; 
         margin-bottom: 1rem;
     }
     .project-image{
