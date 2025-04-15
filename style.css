@@ -472,4 +472,17 @@ footer {
     font-size: 1.2rem;
     color: white;
 }
+.exp_login {
+    width: 400px;
+    height: 500px;
+}
 
+.exp_order {
+    width: 400px;
+    height: 500px;
+}
+
+.exp_deliver {
+    width: 1000px;
+    height: 180px;
+}
